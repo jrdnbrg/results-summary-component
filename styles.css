@@ -1,3 +1,11 @@
+body {
+  font-family: Hanken Grotesk, Arial;
+  font-weight: 500;
+  font-size: 18px;
+
+  background-color: hsl(221, 100%, 96%);
+}
+
 .attribution { 
   font-size: 11px; 
   text-align: center; 
