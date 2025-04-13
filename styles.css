@@ -1,12 +1,19 @@
 body {
+  background-color: hsl(221, 100%, 96%);
   font-family: Hanken Grotesk, Arial;
   font-weight: 500;
   font-size: 18px;
-
-  background-color: hsl(221, 100%, 96%);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .attribution { 
+  position: absolute;
+  bottom: 20px;
   font-size: 11px; 
   text-align: center; 
 }
