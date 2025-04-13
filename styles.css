@@ -161,6 +161,16 @@ p {
   border-radius: 26px;
   padding: 16px 0;
   margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.continue-button:hover {
+  background-color: hsl(241, 100%, 89%);
+}
+
+.continue-button:active {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 .attribution { 
