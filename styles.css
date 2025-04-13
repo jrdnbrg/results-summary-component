@@ -83,6 +83,86 @@ p {
   padding: 30px;
 }
 
+.summary-title {
+  color: hsl(224, 30%, 27%);
+  font-size: 20px;
+}
+
+.result-segments-container {
+  padding: 25px 0;
+}
+
+.segment-row {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 13px;
+  border-radius: 8px;
+}
+
+.segment-row + .segment-row {
+  margin-top: 15px;
+}
+
+.segment-name {
+  padding-left: 10px;
+}
+
+.segment-row:first-child {
+  background-color: hsla(0, 100%, 67%, 0.05);
+}
+
+.segment-row:first-child .segment-name {
+  color: hsl(0, 100%, 67%);
+}
+
+.segment-row:nth-child(2) {
+  background-color: hsla(39, 100%, 56%, 0.05);
+}
+
+.segment-row:nth-child(2) .segment-name {
+  color: hsl(39, 100%, 56%);
+}
+
+.segment-row:nth-child(3) {
+  background-color: hsla(166, 100%, 37%, 0.05);
+}
+
+.segment-row:nth-child(3) .segment-name {
+  color: hsl(166, 100%, 37%);
+}
+
+.segment-row:last-child {
+  background-color: hsla(234, 85%, 45%, 0.05);
+}
+
+.segment-row:last-child .segment-name {
+  color: hsl(234, 85%, 45%);
+}
+
+.segment-result {
+  position: absolute;
+  right: 12px;
+  color: hsla(224, 30%, 27%, 0.4);
+  font-weight: 700;
+}
+
+.segment-result strong {
+  color: hsl(224, 30%, 27%);
+}
+
+.continue-button {
+  width: 100%;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 26px;
+  padding: 16px 0;
+  margin-top: 10px;
+}
+
 .attribution { 
   position: absolute;
   bottom: 20px;
