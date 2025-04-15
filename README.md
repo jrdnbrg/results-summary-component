@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/results-summary-component-ppZ3_C5vEn
 - Live Site URL: https://jrdnbrg.github.io/results-summary-component/
 
 ## My process
